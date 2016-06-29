@@ -1,4 +1,4 @@
-/* $Id: sip_transport_tcp.c 5152 2015-08-07 09:00:52Z ming $ */
+/* $Id: sip_transport_tcp.c 5325 2016-05-31 00:18:46Z ming $ */
 /* 
  * Copyright (C) 2008-2011 Teluu Inc. (http://www.teluu.com)
  * Copyright (C) 2003-2008 Benny Prijono <benny@prijono.org>
@@ -164,7 +164,7 @@ static void tcp_perror(const char *sender, const char *title,
 
     pj_strerror(status, errmsg, sizeof(errmsg));
 
-    PJ_LOG(1,(sender, "%s: %s [code=%d]", title, errmsg, status));
+    PJ_LOG(3,(sender, "%s: %s [code=%d]", title, errmsg, status));
 }
 
 
@@ -251,6 +251,8 @@ PJ_DEF(pj_status_t) pjsip_tcp_transport_start3(
 					pjsip_tpfactory **p_factory
 					)
 {
+    enum { INFO_LEN = 100 };
+    char local_addr[PJ_INET6_ADDRSTRLEN+10];
     pj_pool_t *pool;
     pj_sock_t sock = PJ_INVALID_SOCKET;
     struct tcp_listener *listener;
@@ -473,6 +475,19 @@ PJ_DEF(pj_status_t) pjsip_tcp_transport_start3(
     has_listener = PJ_TRUE;
 
 #endif
+
+    /* Set transport info. */
+    if (listener->factory.info == NULL) {
+	listener->factory.info = (char*) pj_pool_alloc(listener->factory.pool,
+						       INFO_LEN);
+    }
+    pj_sockaddr_print(listener_addr, local_addr, sizeof(local_addr), 3);
+    pj_ansi_snprintf( 
+	listener->factory.info, INFO_LEN, "tcp %s [published as %.*s:%d]",
+	local_addr,
+	(int)listener->factory.addr_name.host.slen,
+	listener->factory.addr_name.host.ptr,
+	listener->factory.addr_name.port);
 
     if (has_listener) {
         PJ_LOG(4,(listener->factory.obj_name, 
@@ -713,6 +728,7 @@ static pj_status_t tcp_create( struct tcp_listener *listener,
     tcp->base.send_msg = &tcp_send_msg;
     tcp->base.do_shutdown = &tcp_shutdown;
     tcp->base.destroy = &tcp_destroy_transport;
+    tcp->base.factory = &listener->factory;
 
     /* Create group lock */
     status = pj_grp_lock_create(pool, NULL, &tcp->grp_lock);
@@ -1183,7 +1199,8 @@ static pj_bool_t on_accept_complete(pj_activesock_t *asock,
 	    }
 	    /* Start keep-alive timer */
 	    if (pjsip_cfg()->tcp.keep_alive_interval) {
-		pj_time_val delay = {pjsip_cfg()->tcp.keep_alive_interval, 0};
+		pj_time_val delay = { 0 };
+		delay.sec = pjsip_cfg()->tcp.keep_alive_interval;
 		pjsip_endpt_schedule_timer(listener->endpt, 
 					   &tcp->ka_timer, 
 					   &delay);
@@ -1469,8 +1486,16 @@ static pj_bool_t on_connect_complete(pj_activesock_t *asock,
     /* Mark that pending connect() operation has completed. */
     tcp->has_pending_connect = PJ_FALSE;
 
-    if (tcp->base.is_shutdown || tcp->base.is_destroying) 
-	return PJ_FALSE;
+    /* If transport is being shutdown/destroyed, proceed as error connect.
+     * Note that it is important to notify application via on_data_sent()
+     * as otherwise the transport reference counter may never reach zero
+     * (see #1898).
+     */
+    if ((tcp->base.is_shutdown || tcp->base.is_destroying) &&
+	status == PJ_SUCCESS)
+    {
+	status = PJ_ECANCELLED;
+    }
 
     /* Check connect() status */
     if (status != PJ_SUCCESS) {
@@ -1542,7 +1567,8 @@ static pj_bool_t on_connect_complete(pj_activesock_t *asock,
 
     /* Start keep-alive timer */
     if (pjsip_cfg()->tcp.keep_alive_interval) {
-	pj_time_val delay = { pjsip_cfg()->tcp.keep_alive_interval, 0 };
+	pj_time_val delay = { 0 };
+	delay.sec = pjsip_cfg()->tcp.keep_alive_interval;
 	pjsip_endpt_schedule_timer(tcp->base.endpt, &tcp->ka_timer, 
 				   &delay);
 	tcp->ka_timer.id = PJ_TRUE;

@@ -1,4 +1,4 @@
-/* $Id: addr_resolv_sock.c 5146 2015-08-05 06:31:45Z ming $ */
+/* $Id: addr_resolv_sock.c 5319 2016-05-25 08:38:49Z nanang $ */
 /* 
  * Copyright (C) 2008-2011 Teluu Inc. (http://www.teluu.com)
  * Copyright (C) 2003-2008 Benny Prijono <benny@prijono.org>
@@ -82,6 +82,8 @@ PJ_DEF(pj_status_t) pj_getaddrinfo(int af, const pj_str_t *nodename,
     PJ_ASSERT_RETURN(af==PJ_AF_INET || af==PJ_AF_INET6 ||
 		     af==PJ_AF_UNSPEC, PJ_EINVAL);
 
+#if PJ_WIN32_WINCE
+
     /* Check if nodename is IP address */
     pj_bzero(&ai[0], sizeof(ai[0]));
     if ((af==PJ_AF_INET || af==PJ_AF_UNSPEC) &&
@@ -108,6 +110,10 @@ PJ_DEF(pj_status_t) pj_getaddrinfo(int af, const pj_str_t *nodename,
 
 	return PJ_SUCCESS;
     }
+
+#else /* PJ_WIN32_WINCE */
+    PJ_UNUSED_ARG(has_addr);
+#endif
 
     /* Copy node name to null terminated string. */
     if (nodename->slen >= PJ_MAX_HOSTNAME)
@@ -145,7 +151,7 @@ PJ_DEF(pj_status_t) pj_getaddrinfo(int af, const pj_str_t *nodename,
 		
 		/* Store address */
 		addr_size = sizeof(*addr);
-		if (af == PJ_AF_INET6) {
+		if (addr->sa_family == PJ_AF_INET6) {
 		    addr_size = addr->sa_len;
 		}
 		PJ_ASSERT_ON_FAIL(addr_size <= sizeof(pj_sockaddr), 				  continue);
@@ -213,6 +219,8 @@ PJ_DEF(pj_status_t) pj_getaddrinfo(int af, const pj_str_t *nodename,
 
     PJ_ASSERT_RETURN(count && *count, PJ_EINVAL);
 
+#if PJ_WIN32_WINCE
+
     /* Check if nodename is IP address */
     pj_bzero(&ai[0], sizeof(ai[0]));
     if ((af==PJ_AF_INET || af==PJ_AF_UNSPEC) &&
@@ -240,6 +248,10 @@ PJ_DEF(pj_status_t) pj_getaddrinfo(int af, const pj_str_t *nodename,
 
 	return PJ_SUCCESS;
     }
+
+#else /* PJ_WIN32_WINCE */
+    PJ_UNUSED_ARG(has_addr);
+#endif
 
     if (af == PJ_AF_INET || af == PJ_AF_UNSPEC) {
 	pj_hostent he;

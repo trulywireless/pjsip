@@ -1,4 +1,4 @@
-/* $Id: sip_transport_tls.c 5152 2015-08-07 09:00:52Z ming $ */
+/* $Id: sip_transport_tls.c 5325 2016-05-31 00:18:46Z ming $ */
 /* 
  * Copyright (C) 2009-2011 Teluu Inc. (http://www.teluu.com)
  *
@@ -170,7 +170,7 @@ static void tls_perror(const char *sender, const char *title,
 
     pj_strerror(status, errmsg, sizeof(errmsg));
 
-    PJ_LOG(1,(sender, "%s: %s [code=%d]", title, errmsg, status));
+    PJ_LOG(3,(sender, "%s: %s [code=%d]", title, errmsg, status));
 }
 
 
@@ -309,12 +309,14 @@ PJ_DEF(pj_status_t) pjsip_tls_transport_start2( pjsip_endpoint *endpt,
 					        unsigned async_cnt,
 					        pjsip_tpfactory **p_factory)
 {
+    enum { INFO_LEN = 100 };
+    char local_addr[PJ_INET6_ADDRSTRLEN+10];
     pj_pool_t *pool;
     pj_bool_t is_ipv6;
     int af, sip_ssl_method;
     pj_uint32_t sip_ssl_proto;
     struct tls_listener *listener;
-    pj_ssl_sock_param ssock_param;
+    pj_ssl_sock_param ssock_param, newsock_param;
     pj_sockaddr *listener_addr;
     pj_bool_t has_listener;
     pj_status_t status;
@@ -375,8 +377,6 @@ PJ_DEF(pj_status_t) pjsip_tls_transport_start2( pjsip_endpoint *endpt,
     pj_ssl_sock_param_default(&ssock_param);
     ssock_param.sock_af = af;
     ssock_param.cb.on_accept_complete = &on_accept_complete;
-    ssock_param.cb.on_data_read = &on_data_read;
-    ssock_param.cb.on_data_sent = &on_data_sent;
     ssock_param.async_cnt = async_cnt;
     ssock_param.ioqueue = pjsip_endpt_get_ioqueue(endpt);
     ssock_param.require_client_cert = listener->tls_setting.require_client_cert;
@@ -473,9 +473,14 @@ PJ_DEF(pj_status_t) pjsip_tls_transport_start2( pjsip_endpoint *endpt,
      */
     has_listener = PJ_FALSE;
 
-    status = pj_ssl_sock_start_accept(listener->ssock, pool, 
+    pj_memcpy(&newsock_param, &ssock_param, sizeof(newsock_param));
+    newsock_param.async_cnt = 1;
+    newsock_param.cb.on_data_read = &on_data_read;
+    newsock_param.cb.on_data_sent = &on_data_sent;
+    status = pj_ssl_sock_start_accept2(listener->ssock, pool, 
 			  (pj_sockaddr_t*)listener_addr, 
-			  pj_sockaddr_get_len((pj_sockaddr_t*)listener_addr));
+			  pj_sockaddr_get_len((pj_sockaddr_t*)listener_addr),
+			  &newsock_param);
     if (status == PJ_SUCCESS || status == PJ_EPENDING) {
 	pj_ssl_sock_info info;
 	has_listener = PJ_TRUE;
@@ -542,6 +547,19 @@ PJ_DEF(pj_status_t) pjsip_tls_transport_start2( pjsip_endpoint *endpt,
 	listener->is_registered = PJ_FALSE;
 	goto on_error;
     }
+
+    /* Set transport info. */
+    if (listener->factory.info == NULL) {
+	listener->factory.info = (char*) pj_pool_alloc(listener->factory.pool,
+						       INFO_LEN);
+    }
+    pj_sockaddr_print(listener_addr, local_addr, sizeof(local_addr), 3);
+    pj_ansi_snprintf( 
+	listener->factory.info, INFO_LEN, "tls %s [published as %.*s:%d]",
+	local_addr,
+	(int)listener->factory.addr_name.host.slen,
+	listener->factory.addr_name.host.ptr,
+	listener->factory.addr_name.port);
 
     if (has_listener) {
 	PJ_LOG(4,(listener->factory.obj_name, 
@@ -739,6 +757,7 @@ static pj_status_t tls_create( struct tls_listener *listener,
     tls->base.send_msg = &tls_send_msg;
     tls->base.do_shutdown = &tls_shutdown;
     tls->base.destroy = &tls_destroy_transport;
+    tls->base.factory = &listener->factory;
 
     tls->ssock = ssock;
 
@@ -1566,8 +1585,16 @@ static pj_bool_t on_connect_complete(pj_ssl_sock_t *ssock,
 
     tls = (struct tls_transport*) pj_ssl_sock_get_user_data(ssock);
 
-    if (tls->base.is_shutdown || tls->base.is_destroying) 
-	return PJ_FALSE;
+    /* If transport is being shutdown/destroyed, proceed as error connect.
+     * Note that it is important to notify application via on_data_sent()
+     * as otherwise the transport reference counter may never reach zero
+     * (see #1898).
+     */
+    if ((tls->base.is_shutdown || tls->base.is_destroying) &&
+	status == PJ_SUCCESS)
+    {
+	status = PJ_ECANCELLED;
+    }
 
     /* Check connect() status */
     if (status != PJ_SUCCESS) {

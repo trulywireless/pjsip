@@ -1,4 +1,4 @@
-/* $Id: stun_simple_client.c 4961 2014-11-14 02:17:06Z ming $ */
+/* $Id: stun_simple_client.c 5311 2016-05-20 04:17:00Z ming $ */
 /* 
  * Copyright (C) 2008-2011 Teluu Inc. (http://www.teluu.com)
  * Copyright (C) 2003-2008 Benny Prijono <benny@prijono.org>
@@ -33,7 +33,6 @@ static int stun_timer[] = {500, 500, 500, 500 };
 #define STUN_MAGIC 0x2112A442
 
 #define THIS_FILE	"stun_client.c"
-#define LOG_ADDR(addr)	pj_inet_ntoa(addr.sin_addr), pj_ntohs(addr.sin_port)
 
 #define TRACE_(x)	PJ_LOG(6,x)
 

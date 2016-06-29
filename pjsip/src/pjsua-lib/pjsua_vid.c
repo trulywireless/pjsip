@@ -1,4 +1,4 @@
-/* $Id: pjsua_vid.c 5125 2015-07-03 06:21:30Z ming $ */
+/* $Id: pjsua_vid.c 5324 2016-05-30 06:09:22Z nanang $ */
 /* 
  * Copyright (C) 2011-2011 Teluu Inc. (http://www.teluu.com)
  *
@@ -1822,6 +1822,7 @@ on_error:
 	pjmedia_transport_close(call_med->tp);
 	call_med->tp = call_med->tp_orig = NULL;
     }
+    call->med_prov_cnt = 0;
 
     return status;
 }

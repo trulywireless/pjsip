@@ -1,4 +1,4 @@
-/* $Id: srv_resolver.c 5115 2015-06-22 08:49:34Z ming $ */
+/* $Id: srv_resolver.c 5311 2016-05-20 04:17:00Z ming $ */
 /* 
  * Copyright (C) 2008-2011 Teluu Inc. (http://www.teluu.com)
  * Copyright (C) 2003-2008 Benny Prijono <benny@prijono.org>
@@ -368,7 +368,9 @@ static void build_server_entries(pj_dns_srv_async_query *query_job,
 	    continue;
 	}
 
-	if (pj_inet_aton(&query_job->srv[i].target_name, &addr) != 0) {
+	if (pj_inet_pton(pj_AF_INET(), &query_job->srv[i].target_name,
+			 &addr) == PJ_SUCCESS)
+	{
 	    query_job->srv[i].addr[query_job->srv[i].addr_cnt++] = addr;
 	    ++query_job->host_resolved;
 	}
@@ -385,12 +387,13 @@ static void build_server_entries(pj_dns_srv_async_query *query_job,
 	      (query_job->srv_cnt ? ':' : ' ')));
 
     for (i=0; i<query_job->srv_cnt; ++i) {
-	const char *addr;
+	char addr[PJ_INET_ADDRSTRLEN];
 
-	if (query_job->srv[i].addr_cnt != 0)
-	    addr = pj_inet_ntoa(query_job->srv[i].addr[0]);
-	else
-	    addr = "-";
+	if (query_job->srv[i].addr_cnt != 0) {
+	    pj_inet_ntop(pj_AF_INET(), &query_job->srv[i].addr[0],
+			 addr, sizeof(addr));
+	} else
+	    pj_ansi_strcpy(addr, "-");
 
 	PJ_LOG(5,(query_job->objname, 
 		  " %d: SRV %d %d %d %.*s (%s)",
@@ -547,6 +550,7 @@ static void dns_callback(void *user_data,
 
 	/* Check that we really have answer */
 	if (status==PJ_SUCCESS && pkt->hdr.anscount != 0) {
+	    char addr[PJ_INET_ADDRSTRLEN];
 	    pj_dns_a_record rec;
 
 	    /* Parse response */
@@ -573,7 +577,8 @@ static void dns_callback(void *user_data,
 			  "DNS A for %.*s: %s",
 			  (int)srv->target_name.slen, 
 			  srv->target_name.ptr,
-			  pj_inet_ntoa(rec.addr[0])));
+			  pj_inet_ntop2(pj_AF_INET(), &rec.addr[0],
+			  		addr, sizeof(addr))));
 	    }
 
 	    /* Check for multiple IP addresses */
@@ -585,7 +590,8 @@ static void dns_callback(void *user_data,
 			  "Additional DNS A for %.*s: %s",
 			  (int)srv->target_name.slen, 
 			  srv->target_name.ptr,
-			  pj_inet_ntoa(rec.addr[i])));
+			  pj_inet_ntop2(pj_AF_INET(), &rec.addr[i],
+			  		addr, sizeof(addr))));
 	    }
 
 	} else if (status != PJ_SUCCESS) {
@@ -616,25 +622,25 @@ static void dns_callback(void *user_data,
 	srv_rec.count = 0;
 	for (i=0; i<query_job->srv_cnt; ++i) {
 	    unsigned j;
-	    struct srv_target *srv = &query_job->srv[i];
+	    struct srv_target *srv2 = &query_job->srv[i];
 
-	    srv_rec.entry[srv_rec.count].priority = srv->priority;
-	    srv_rec.entry[srv_rec.count].weight = srv->weight;
-	    srv_rec.entry[srv_rec.count].port = (pj_uint16_t)srv->port ;
+	    srv_rec.entry[srv_rec.count].priority = srv2->priority;
+	    srv_rec.entry[srv_rec.count].weight = srv2->weight;
+	    srv_rec.entry[srv_rec.count].port = (pj_uint16_t)srv2->port ;
 
-	    srv_rec.entry[srv_rec.count].server.name = srv->target_name;
-	    srv_rec.entry[srv_rec.count].server.alias = srv->cname;
+	    srv_rec.entry[srv_rec.count].server.name = srv2->target_name;
+	    srv_rec.entry[srv_rec.count].server.alias = srv2->cname;
 	    srv_rec.entry[srv_rec.count].server.addr_count = 0;
 
-	    pj_assert(srv->addr_cnt <= PJ_DNS_MAX_IP_IN_A_REC);
+	    pj_assert(srv2->addr_cnt <= PJ_DNS_MAX_IP_IN_A_REC);
 
-	    for (j=0; j<srv->addr_cnt; ++j) {
+	    for (j=0; j<srv2->addr_cnt; ++j) {
 		srv_rec.entry[srv_rec.count].server.addr[j].s_addr = 
-		    srv->addr[j].s_addr;
+		    srv2->addr[j].s_addr;
 		++srv_rec.entry[srv_rec.count].server.addr_count;
 	    }
 
-	    if (srv->addr_cnt > 0) {
+	    if (srv2->addr_cnt > 0) {
 		++srv_rec.count;
 		if (srv_rec.count == PJ_DNS_SRV_MAX_ADDR)
 		    break;

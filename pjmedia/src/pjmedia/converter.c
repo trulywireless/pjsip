@@ -1,4 +1,4 @@
-/* $Id: converter.c 4875 2014-07-14 02:37:06Z riza $ */
+/* $Id: converter.c 5306 2016-05-18 10:11:53Z riza $ */
 /*
  * Copyright (C) 2010-2011 Teluu Inc. (http://www.teluu.com)
  *
@@ -29,7 +29,8 @@ struct pjmedia_converter_mgr
 
 static pjmedia_converter_mgr *converter_manager_instance;
 
-#if PJMEDIA_HAS_LIBSWSCALE && PJMEDIA_HAS_LIBAVUTIL
+#if defined(PJMEDIA_HAS_VIDEO) && (PJMEDIA_HAS_VIDEO != 0) && \
+    defined(PJMEDIA_HAS_LIBSWSCALE) && (PJMEDIA_HAS_LIBSWSCALE != 0)
 PJ_DECL(pj_status_t)
 pjmedia_libswscale_converter_init(pjmedia_converter_mgr *mgr);
 #endif
@@ -59,7 +60,8 @@ PJ_DEF(pj_status_t) pjmedia_converter_mgr_create(pj_pool_t *pool,
     }
 #endif
 
-#if PJMEDIA_HAS_LIBSWSCALE && PJMEDIA_HAS_LIBAVUTIL
+#if defined(PJMEDIA_HAS_VIDEO) && (PJMEDIA_HAS_VIDEO != 0) && \
+    defined(PJMEDIA_HAS_LIBSWSCALE) && (PJMEDIA_HAS_LIBSWSCALE != 0)
     status = pjmedia_libswscale_converter_init(mgr);
     if (status != PJ_SUCCESS) {
 	PJ_PERROR(4,(THIS_FILE, status,

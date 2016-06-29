@@ -8,20 +8,20 @@ output/pjsua-armv7-apple-darwin_ios/main.o: ../src/pjsua/main.c ../src/pjsua/pjs
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/config.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/cc_gcc.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/os_auto.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/TargetConditionals.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/Availability.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/AvailabilityInternal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/TargetConditionals.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/Availability.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/AvailabilityInternal.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/m_auto.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/size_t.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/stddef.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/__stddef_max_align_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/__stddef_max_align_t.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/config_site.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/config_site_sample.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_autoconf.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/errno.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/stdarg.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/stdarg.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_uri.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/list.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib-util/include/pjlib-util/scanner.h \
@@ -45,83 +45,83 @@ output/pjsua-armv7-apple-darwin_ios/main.o: ../src/pjsua/main.c ../src/pjsua/pjs
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/ioqueue.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_util.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_udp.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/sock_qos.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_loop.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_tcp.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/sock_qos.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_tls.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/pool.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/ssl_sock.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/string.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/string.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/string.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/cdefs.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_symbol_aliasing.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_posix_availability.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_size_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_null.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_rsize_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_errno_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_ssize_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/strings.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/secure/_string.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/secure/_common.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/stdio.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_va_list.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/stdio.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_off_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/secure/_stdio.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/stdlib.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/wait.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_pid_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_id_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/signal.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/appleapiopts.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/signal.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/signal.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/_mcontext.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/_mcontext.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/mach/arm/_structs.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_sigaltstack.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_ucontext.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_sigset_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_uid_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/resource.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/stdint.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/stdint.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int8_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int16_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int32_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int64_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint8_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint16_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint32_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint64_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_intptr_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_uintptr_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_intmax_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uintmax_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_timeval.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/endian.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/endian.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_endian.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/libkern/_OSByteOrder.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/libkern/arm/OSByteOrder.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/arch.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_os_inline.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/alloca.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_ct_rune_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_rune_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_wchar_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_dev_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_mode_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/string.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/cdefs.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_posix_availability.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_null.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_errno_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_ssize_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/strings.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/secure/_string.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/secure/_common.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/stdio.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_va_list.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/stdio.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_off_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/secure/_stdio.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/stdlib.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/wait.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_pid_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_id_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/signal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/appleapiopts.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/signal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/signal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/_mcontext.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/_mcontext.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/mach/arm/_structs.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_sigaltstack.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_ucontext.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_uid_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/resource.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/stdint.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/stdint.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint8_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint16_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint32_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint64_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_intmax_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uintmax_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_timeval.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/endian.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/endian.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_endian.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/libkern/arm/OSByteOrder.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/arch.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_os_inline.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/alloca.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_ct_rune_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_rune_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_wchar_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_dev_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_mode_t.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_auth.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_auth_msg.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_auth_aka.h \
@@ -130,7 +130,7 @@ output/pjsua-armv7-apple-darwin_ios/main.o: ../src/pjsua/main.c ../src/pjsua/pjs
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_dialog.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/assert.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/assert.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/assert.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/assert.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/alaw_ulaw.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/types.h \
@@ -156,6 +156,10 @@ output/pjsua-armv7-apple-darwin_ios/main.o: ../src/pjsua/main.c ../src/pjsua/pjs
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sdp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/transport.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/errno.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/audiodev.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/audiodev.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/config.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/g711.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/types.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/config.h \
@@ -170,14 +174,11 @@ output/pjsua-armv7-apple-darwin_ios/main.o: ../src/pjsua/main.c ../src/pjsua/pjs
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/rtcp_xr.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/math.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/high_precision.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/math.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/math.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/rtp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sdp_neg.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/silencedet.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sound.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/audiodev.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/config.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sound_port.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/splitcomb.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/stereo.h \
@@ -205,6 +206,7 @@ output/pjsua-armv7-apple-darwin_ios/main.o: ../src/pjsua/main.c ../src/pjsua/pjs
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/transport_udp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/vid_port.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/videodev.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/videodev.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/config.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/vid_stream.h \
@@ -227,6 +229,7 @@ output/pjsua-armv7-apple-darwin_ios/main.o: ../src/pjsua/main.c ../src/pjsua/pjs
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/opencore_amr.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/openh264.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/silk.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/opus.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia_videodev.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/videodev_imp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/avi_dev.h \
@@ -277,12 +280,12 @@ output/pjsua-armv7-apple-darwin_ios/main.o: ../src/pjsua/main.c ../src/pjsua/pjs
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/array.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/ctype.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/ctype.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/ctype.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/runetype.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_wint_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/ctype.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/runetype.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_wint_t.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/except.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/setjmp.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/setjmp.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/setjmp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/log.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/fifobuf.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/file_access.h \
@@ -295,8 +298,8 @@ output/pjsua-armv7-apple-darwin_ios/main.o: ../src/pjsua/main.c ../src/pjsua/pjs
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/rbtree.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/sock_select.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/unicode.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/signal.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_pthread/_pthread_t.h
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/signal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_pthread/_pthread_t.h
 output/pjsua-armv7-apple-darwin_ios/pjsua_app.o: ../src/pjsua/pjsua_app.c ../src/pjsua/pjsua_app.h \
   ../src/pjsua/pjsua_app_common.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsua-lib/pjsua.h \
@@ -307,20 +310,20 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app.o: ../src/pjsua/pjsua_app.c ../src
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/config.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/cc_gcc.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/os_auto.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/TargetConditionals.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/Availability.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/AvailabilityInternal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/TargetConditionals.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/Availability.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/AvailabilityInternal.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/m_auto.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/size_t.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/stddef.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/__stddef_max_align_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/__stddef_max_align_t.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/config_site.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/config_site_sample.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_autoconf.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/errno.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/stdarg.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/stdarg.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_uri.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/list.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib-util/include/pjlib-util/scanner.h \
@@ -344,83 +347,83 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app.o: ../src/pjsua/pjsua_app.c ../src
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/ioqueue.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_util.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_udp.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/sock_qos.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_loop.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_tcp.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/sock_qos.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_tls.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/pool.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/ssl_sock.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/string.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/string.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/string.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/cdefs.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_symbol_aliasing.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_posix_availability.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_size_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_null.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_rsize_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_errno_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_ssize_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/strings.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/secure/_string.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/secure/_common.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/stdio.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_va_list.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/stdio.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_off_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/secure/_stdio.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/stdlib.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/wait.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_pid_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_id_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/signal.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/appleapiopts.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/signal.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/signal.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/_mcontext.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/_mcontext.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/mach/arm/_structs.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_sigaltstack.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_ucontext.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_sigset_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_uid_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/resource.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/stdint.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/stdint.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int8_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int16_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int32_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int64_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint8_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint16_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint32_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint64_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_intptr_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_uintptr_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_intmax_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uintmax_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_timeval.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/endian.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/endian.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_endian.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/libkern/_OSByteOrder.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/libkern/arm/OSByteOrder.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/arch.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_os_inline.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/alloca.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_ct_rune_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_rune_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_wchar_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_dev_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_mode_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/string.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/cdefs.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_posix_availability.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_null.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_errno_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_ssize_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/strings.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/secure/_string.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/secure/_common.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/stdio.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_va_list.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/stdio.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_off_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/secure/_stdio.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/stdlib.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/wait.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_pid_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_id_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/signal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/appleapiopts.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/signal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/signal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/_mcontext.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/_mcontext.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/mach/arm/_structs.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_sigaltstack.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_ucontext.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_uid_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/resource.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/stdint.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/stdint.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint8_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint16_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint32_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint64_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_intmax_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uintmax_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_timeval.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/endian.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/endian.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_endian.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/libkern/arm/OSByteOrder.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/arch.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_os_inline.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/alloca.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_ct_rune_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_rune_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_wchar_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_dev_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_mode_t.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_auth.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_auth_msg.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_auth_aka.h \
@@ -429,7 +432,7 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app.o: ../src/pjsua/pjsua_app.c ../src
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_dialog.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/assert.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/assert.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/assert.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/assert.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/alaw_ulaw.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/types.h \
@@ -455,6 +458,10 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app.o: ../src/pjsua/pjsua_app.c ../src
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sdp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/transport.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/errno.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/audiodev.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/audiodev.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/config.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/g711.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/types.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/config.h \
@@ -469,14 +476,11 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app.o: ../src/pjsua/pjsua_app.c ../src
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/rtcp_xr.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/math.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/high_precision.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/math.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/math.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/rtp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sdp_neg.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/silencedet.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sound.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/audiodev.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/config.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sound_port.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/splitcomb.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/stereo.h \
@@ -504,6 +508,7 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app.o: ../src/pjsua/pjsua_app.c ../src
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/transport_udp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/vid_port.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/videodev.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/videodev.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/config.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/vid_stream.h \
@@ -526,6 +531,7 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app.o: ../src/pjsua/pjsua_app.c ../src
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/opencore_amr.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/openh264.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/silk.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/opus.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia_videodev.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/videodev_imp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/avi_dev.h \
@@ -576,12 +582,12 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app.o: ../src/pjsua/pjsua_app.c ../src
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/array.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/ctype.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/ctype.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/ctype.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/runetype.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_wint_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/ctype.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/runetype.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_wint_t.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/except.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/setjmp.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/setjmp.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/setjmp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/log.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/fifobuf.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/file_access.h \
@@ -604,20 +610,20 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_cli.o: ../src/pjsua/pjsua_app_cli.
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/config.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/cc_gcc.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/os_auto.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/TargetConditionals.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/Availability.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/AvailabilityInternal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/TargetConditionals.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/Availability.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/AvailabilityInternal.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/m_auto.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/size_t.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/stddef.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/__stddef_max_align_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/__stddef_max_align_t.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/config_site.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/config_site_sample.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_autoconf.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/errno.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/stdarg.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/stdarg.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_uri.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/list.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib-util/include/pjlib-util/scanner.h \
@@ -641,83 +647,83 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_cli.o: ../src/pjsua/pjsua_app_cli.
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/ioqueue.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_util.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_udp.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/sock_qos.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_loop.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_tcp.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/sock_qos.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_tls.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/pool.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/ssl_sock.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/string.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/string.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/string.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/cdefs.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_symbol_aliasing.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_posix_availability.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_size_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_null.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_rsize_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_errno_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_ssize_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/strings.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/secure/_string.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/secure/_common.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/stdio.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_va_list.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/stdio.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_off_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/secure/_stdio.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/stdlib.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/wait.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_pid_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_id_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/signal.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/appleapiopts.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/signal.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/signal.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/_mcontext.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/_mcontext.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/mach/arm/_structs.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_sigaltstack.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_ucontext.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_sigset_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_uid_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/resource.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/stdint.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/stdint.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int8_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int16_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int32_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int64_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint8_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint16_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint32_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint64_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_intptr_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_uintptr_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_intmax_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uintmax_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_timeval.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/endian.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/endian.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_endian.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/libkern/_OSByteOrder.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/libkern/arm/OSByteOrder.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/arch.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_os_inline.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/alloca.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_ct_rune_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_rune_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_wchar_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_dev_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_mode_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/string.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/cdefs.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_posix_availability.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_null.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_errno_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_ssize_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/strings.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/secure/_string.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/secure/_common.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/stdio.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_va_list.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/stdio.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_off_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/secure/_stdio.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/stdlib.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/wait.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_pid_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_id_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/signal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/appleapiopts.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/signal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/signal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/_mcontext.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/_mcontext.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/mach/arm/_structs.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_sigaltstack.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_ucontext.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_uid_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/resource.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/stdint.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/stdint.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint8_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint16_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint32_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint64_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_intmax_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uintmax_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_timeval.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/endian.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/endian.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_endian.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/libkern/arm/OSByteOrder.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/arch.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_os_inline.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/alloca.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_ct_rune_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_rune_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_wchar_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_dev_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_mode_t.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_auth.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_auth_msg.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_auth_aka.h \
@@ -726,7 +732,7 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_cli.o: ../src/pjsua/pjsua_app_cli.
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_dialog.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/assert.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/assert.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/assert.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/assert.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/alaw_ulaw.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/types.h \
@@ -752,6 +758,10 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_cli.o: ../src/pjsua/pjsua_app_cli.
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sdp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/transport.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/errno.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/audiodev.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/audiodev.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/config.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/g711.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/types.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/config.h \
@@ -766,14 +776,11 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_cli.o: ../src/pjsua/pjsua_app_cli.
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/rtcp_xr.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/math.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/high_precision.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/math.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/math.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/rtp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sdp_neg.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/silencedet.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sound.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/audiodev.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/config.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sound_port.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/splitcomb.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/stereo.h \
@@ -801,6 +808,7 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_cli.o: ../src/pjsua/pjsua_app_cli.
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/transport_udp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/vid_port.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/videodev.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/videodev.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/config.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/vid_stream.h \
@@ -823,6 +831,7 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_cli.o: ../src/pjsua/pjsua_app_cli.
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/opencore_amr.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/openh264.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/silk.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/opus.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia_videodev.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/videodev_imp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/avi_dev.h \
@@ -873,12 +882,12 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_cli.o: ../src/pjsua/pjsua_app_cli.
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/array.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/ctype.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/ctype.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/ctype.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/runetype.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_wint_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/ctype.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/runetype.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_wint_t.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/except.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/setjmp.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/setjmp.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/setjmp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/log.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/fifobuf.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/file_access.h \
@@ -901,20 +910,20 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_common.o: ../src/pjsua/pjsua_app_c
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/config.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/cc_gcc.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/os_auto.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/TargetConditionals.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/Availability.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/AvailabilityInternal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/TargetConditionals.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/Availability.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/AvailabilityInternal.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/m_auto.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/size_t.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/stddef.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/__stddef_max_align_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/__stddef_max_align_t.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/config_site.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/config_site_sample.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_autoconf.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/errno.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/stdarg.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/stdarg.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_uri.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/list.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib-util/include/pjlib-util/scanner.h \
@@ -938,83 +947,83 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_common.o: ../src/pjsua/pjsua_app_c
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/ioqueue.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_util.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_udp.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/sock_qos.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_loop.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_tcp.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/sock_qos.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_tls.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/pool.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/ssl_sock.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/string.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/string.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/string.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/cdefs.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_symbol_aliasing.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_posix_availability.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_size_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_null.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_rsize_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_errno_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_ssize_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/strings.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/secure/_string.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/secure/_common.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/stdio.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_va_list.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/stdio.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_off_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/secure/_stdio.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/stdlib.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/wait.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_pid_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_id_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/signal.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/appleapiopts.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/signal.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/signal.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/_mcontext.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/_mcontext.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/mach/arm/_structs.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_sigaltstack.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_ucontext.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_sigset_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_uid_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/resource.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/stdint.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/stdint.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int8_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int16_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int32_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int64_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint8_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint16_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint32_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint64_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_intptr_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_uintptr_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_intmax_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uintmax_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_timeval.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/endian.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/endian.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_endian.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/libkern/_OSByteOrder.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/libkern/arm/OSByteOrder.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/arch.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_os_inline.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/alloca.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_ct_rune_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_rune_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_wchar_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_dev_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_mode_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/string.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/cdefs.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_posix_availability.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_null.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_errno_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_ssize_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/strings.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/secure/_string.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/secure/_common.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/stdio.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_va_list.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/stdio.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_off_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/secure/_stdio.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/stdlib.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/wait.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_pid_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_id_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/signal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/appleapiopts.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/signal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/signal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/_mcontext.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/_mcontext.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/mach/arm/_structs.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_sigaltstack.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_ucontext.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_uid_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/resource.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/stdint.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/stdint.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint8_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint16_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint32_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint64_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_intmax_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uintmax_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_timeval.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/endian.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/endian.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_endian.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/libkern/arm/OSByteOrder.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/arch.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_os_inline.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/alloca.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_ct_rune_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_rune_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_wchar_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_dev_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_mode_t.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_auth.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_auth_msg.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_auth_aka.h \
@@ -1023,7 +1032,7 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_common.o: ../src/pjsua/pjsua_app_c
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_dialog.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/assert.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/assert.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/assert.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/assert.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/alaw_ulaw.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/types.h \
@@ -1049,6 +1058,10 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_common.o: ../src/pjsua/pjsua_app_c
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sdp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/transport.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/errno.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/audiodev.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/audiodev.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/config.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/g711.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/types.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/config.h \
@@ -1063,14 +1076,11 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_common.o: ../src/pjsua/pjsua_app_c
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/rtcp_xr.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/math.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/high_precision.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/math.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/math.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/rtp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sdp_neg.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/silencedet.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sound.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/audiodev.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/config.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sound_port.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/splitcomb.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/stereo.h \
@@ -1098,6 +1108,7 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_common.o: ../src/pjsua/pjsua_app_c
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/transport_udp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/vid_port.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/videodev.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/videodev.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/config.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/vid_stream.h \
@@ -1120,6 +1131,7 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_common.o: ../src/pjsua/pjsua_app_c
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/opencore_amr.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/openh264.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/silk.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/opus.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia_videodev.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/videodev_imp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/avi_dev.h \
@@ -1170,12 +1182,12 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_common.o: ../src/pjsua/pjsua_app_c
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/array.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/ctype.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/ctype.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/ctype.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/runetype.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_wint_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/ctype.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/runetype.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_wint_t.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/except.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/setjmp.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/setjmp.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/setjmp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/log.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/fifobuf.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/file_access.h \
@@ -1198,20 +1210,20 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_config.o: ../src/pjsua/pjsua_app_c
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/config.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/cc_gcc.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/os_auto.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/TargetConditionals.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/Availability.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/AvailabilityInternal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/TargetConditionals.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/Availability.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/AvailabilityInternal.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/m_auto.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/size_t.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/stddef.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/__stddef_max_align_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/__stddef_max_align_t.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/config_site.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/config_site_sample.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_autoconf.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/errno.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/stdarg.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/stdarg.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_uri.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/list.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib-util/include/pjlib-util/scanner.h \
@@ -1235,83 +1247,83 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_config.o: ../src/pjsua/pjsua_app_c
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/ioqueue.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_util.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_udp.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/sock_qos.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_loop.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_tcp.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/sock_qos.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_tls.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/pool.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/ssl_sock.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/string.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/string.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/string.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/cdefs.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_symbol_aliasing.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_posix_availability.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_size_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_null.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_rsize_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_errno_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_ssize_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/strings.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/secure/_string.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/secure/_common.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/stdio.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_va_list.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/stdio.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_off_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/secure/_stdio.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/stdlib.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/wait.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_pid_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_id_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/signal.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/appleapiopts.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/signal.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/signal.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/_mcontext.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/_mcontext.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/mach/arm/_structs.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_sigaltstack.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_ucontext.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_sigset_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_uid_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/resource.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/stdint.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/stdint.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int8_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int16_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int32_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int64_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint8_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint16_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint32_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint64_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_intptr_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_uintptr_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_intmax_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uintmax_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_timeval.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/endian.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/endian.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_endian.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/libkern/_OSByteOrder.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/libkern/arm/OSByteOrder.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/arch.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_os_inline.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/alloca.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_ct_rune_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_rune_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_wchar_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_dev_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_mode_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/string.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/cdefs.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_posix_availability.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_null.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_errno_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_ssize_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/strings.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/secure/_string.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/secure/_common.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/stdio.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_va_list.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/stdio.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_off_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/secure/_stdio.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/stdlib.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/wait.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_pid_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_id_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/signal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/appleapiopts.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/signal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/signal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/_mcontext.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/_mcontext.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/mach/arm/_structs.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_sigaltstack.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_ucontext.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_uid_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/resource.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/stdint.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/stdint.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint8_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint16_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint32_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint64_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_intmax_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uintmax_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_timeval.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/endian.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/endian.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_endian.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/libkern/arm/OSByteOrder.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/arch.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_os_inline.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/alloca.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_ct_rune_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_rune_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_wchar_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_dev_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_mode_t.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_auth.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_auth_msg.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_auth_aka.h \
@@ -1320,7 +1332,7 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_config.o: ../src/pjsua/pjsua_app_c
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_dialog.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/assert.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/assert.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/assert.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/assert.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/alaw_ulaw.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/types.h \
@@ -1346,6 +1358,10 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_config.o: ../src/pjsua/pjsua_app_c
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sdp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/transport.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/errno.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/audiodev.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/audiodev.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/config.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/g711.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/types.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/config.h \
@@ -1360,14 +1376,11 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_config.o: ../src/pjsua/pjsua_app_c
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/rtcp_xr.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/math.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/high_precision.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/math.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/math.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/rtp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sdp_neg.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/silencedet.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sound.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/audiodev.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/config.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sound_port.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/splitcomb.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/stereo.h \
@@ -1395,6 +1408,7 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_config.o: ../src/pjsua/pjsua_app_c
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/transport_udp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/vid_port.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/videodev.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/videodev.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/config.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/vid_stream.h \
@@ -1417,6 +1431,7 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_config.o: ../src/pjsua/pjsua_app_c
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/opencore_amr.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/openh264.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/silk.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/opus.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia_videodev.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/videodev_imp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/avi_dev.h \
@@ -1467,12 +1482,12 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_config.o: ../src/pjsua/pjsua_app_c
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/array.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/ctype.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/ctype.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/ctype.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/runetype.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_wint_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/ctype.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/runetype.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_wint_t.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/except.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/setjmp.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/setjmp.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/setjmp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/log.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/fifobuf.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/file_access.h \
@@ -1494,20 +1509,20 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_legacy.o: ../src/pjsua/pjsua_app_l
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/config.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/cc_gcc.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/os_auto.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/TargetConditionals.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/Availability.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/AvailabilityInternal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/TargetConditionals.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/Availability.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/AvailabilityInternal.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/m_auto.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/size_t.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/stddef.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/__stddef_max_align_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/__stddef_max_align_t.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/config_site.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/config_site_sample.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_autoconf.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/errno.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/stdarg.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/stdarg.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_uri.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/list.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib-util/include/pjlib-util/scanner.h \
@@ -1531,83 +1546,83 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_legacy.o: ../src/pjsua/pjsua_app_l
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/ioqueue.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_util.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_udp.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/sock_qos.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_loop.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_tcp.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/sock_qos.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_transport_tls.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/pool.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/ssl_sock.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/string.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/string.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/string.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/cdefs.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_symbol_aliasing.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_posix_availability.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_size_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_null.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_rsize_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_errno_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_ssize_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/strings.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/secure/_string.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/secure/_common.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/stdio.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_va_list.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/stdio.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_off_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/secure/_stdio.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/stdlib.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/wait.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_pid_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_id_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/signal.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/appleapiopts.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/signal.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/signal.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/_mcontext.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/_mcontext.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/mach/arm/_structs.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_sigaltstack.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_ucontext.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_sigset_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_uid_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/resource.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include/stdint.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/stdint.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int8_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int16_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int32_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_int64_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint8_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint16_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint32_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uint64_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_intptr_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_uintptr_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_intmax_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/_types/_uintmax_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_timeval.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/endian.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/endian.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_endian.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/libkern/_OSByteOrder.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/libkern/arm/OSByteOrder.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/arch.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_os_inline.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/alloca.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_ct_rune_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_rune_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_wchar_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/machine/types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/arm/types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_dev_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_mode_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/string.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/cdefs.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_posix_availability.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_null.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_errno_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_ssize_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/strings.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/secure/_string.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/secure/_common.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/stdio.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_va_list.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/stdio.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_off_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/secure/_stdio.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/stdlib.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/wait.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_pid_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_id_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/signal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/appleapiopts.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/signal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/signal.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/_mcontext.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/_mcontext.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/mach/arm/_structs.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_sigaltstack.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_ucontext.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_uid_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/resource.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include/stdint.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/stdint.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint8_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint16_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint32_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uint64_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_intmax_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/_types/_uintmax_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_timeval.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/endian.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/endian.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_endian.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/libkern/arm/OSByteOrder.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/arch.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_os_inline.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/alloca.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_ct_rune_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_rune_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_wchar_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/machine/types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/arm/types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_dev_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_mode_t.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_auth.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_auth_msg.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_auth_aka.h \
@@ -1616,7 +1631,7 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_legacy.o: ../src/pjsua/pjsua_app_l
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjsip/include/pjsip/sip_dialog.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/assert.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/assert.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/assert.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/assert.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/alaw_ulaw.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/types.h \
@@ -1642,6 +1657,10 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_legacy.o: ../src/pjsua/pjsua_app_l
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sdp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/transport.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/errno.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/audiodev.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/audiodev.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/config.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/g711.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/types.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/config.h \
@@ -1656,14 +1675,11 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_legacy.o: ../src/pjsua/pjsua_app_l
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/rtcp_xr.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/math.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/high_precision.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/math.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/math.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/rtp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sdp_neg.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/silencedet.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sound.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/audiodev.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/config.h \
-  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-audiodev/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/sound_port.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/splitcomb.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/stereo.h \
@@ -1691,6 +1707,7 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_legacy.o: ../src/pjsua/pjsua_app_l
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/transport_udp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/vid_port.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/videodev.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/videodev.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/config.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/errno.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia/vid_stream.h \
@@ -1713,6 +1730,7 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_legacy.o: ../src/pjsua/pjsua_app_l
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/opencore_amr.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/openh264.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/silk.h \
+  /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-codec/opus.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia_videodev.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/videodev_imp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjmedia/include/pjmedia-videodev/avi_dev.h \
@@ -1763,12 +1781,12 @@ output/pjsua-armv7-apple-darwin_ios/pjsua_app_legacy.o: ../src/pjsua/pjsua_app_l
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/array.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/ctype.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/ctype.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/ctype.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/runetype.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/sys/_types/_wint_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/ctype.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/runetype.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/sys/_types/_wint_t.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/except.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/compat/setjmp.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/setjmp.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/setjmp.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/log.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/fifobuf.h \
   /Users/johnryan/Desktop/TrulyStuff/Code/trulyios/gossip/pjsip/src/pjlib/include/pj/file_access.h \

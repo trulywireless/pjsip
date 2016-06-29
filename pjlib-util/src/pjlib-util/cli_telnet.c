@@ -36,6 +36,10 @@
     (defined(PJ_WIN64) && PJ_WIN64!=0) || \
     (defined(PJ_WIN32_WINCE) && PJ_WIN32_WINCE!=0)
 
+/* Undefine EADDRINUSE first, we want it equal to WSAEADDRINUSE,
+ * while WinSDK 10 defines it to another value.
+ */
+#undef EADDRINUSE
 #define EADDRINUSE WSAEADDRINUSE
 
 #endif
@@ -1369,7 +1373,7 @@ static void telnet_fe_write_log(pj_cli_front_end *fe, int level,
         cli_telnet_sess *tsess = (cli_telnet_sess *)sess;
 
         sess = sess->next;
-	if (tsess->base.log_level > level) {
+	if (tsess->base.log_level >= level) {
 	    pj_str_t s;
 
 	    pj_strset(&s, (char *)data, len);
@@ -1924,7 +1928,8 @@ PJ_DEF(pj_status_t) pj_cli_telnet_get_info(pj_cli_front_end *fe,
     if (status != PJ_SUCCESS)
 	return status;
 
-    pj_strcpy2(&info->ip_address, pj_inet_ntoa(hostip.ipv4.sin_addr));
+    pj_sockaddr_print(&hostip, info->buf_, sizeof(info->buf_), 0);
+    pj_strset2(&info->ip_address, info->buf_);
 
     info->port = tfe->cfg.port;
 
